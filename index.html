@@ -16,21 +16,15 @@
 
   </body>
   <style>
-    html, body {
-      margin: 0px;
-      padding: 0px;
-      border: 0px;
-      width: 100%;
-      height: 100%;
+    body {
+        margin: 0;            /* Reset default margin */
     }
     iframe {
-      width: 100%;
-      height: 100%;
-      margin: 0px;
-      padding: 0px;
-      background: red;
-      border: -8px;
-      display: block;
+        display: block;       /* iframes are inline by default */
+        background: #000;
+        border: none;         /* Reset default border */
+        height: 100vh;        /* Viewport-relative units */
+        width: 100vw;
     }
   </style>
   <script type="text/javascript">
